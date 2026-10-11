@@ -1,0 +1,4 @@
+project.manifest = manifest.xml
+base.sourcePath = source;../common/source
+base.resourcePath = resources;../common/resources
+base.lang.nob = resources-nob;../common/resources-nob

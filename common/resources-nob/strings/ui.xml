@@ -1,0 +1,30 @@
+<strings>
+    <string id="Timer">TID</string>
+    <string id="Clock">KLOKKE</string>
+    <string id="Km">KM</string>
+    <string id="Lap">RUNDE</string>
+    <string id="LapTime">RUNDETID</string>
+    <string id="LapKm">RUNDE KM</string>
+    <string id="LapAvgHr">RUNDE SNITTPULS</string>
+    <string id="Hr">PULS</string>
+    <string id="AvgHr">SNITTPULS</string>
+    <string id="Kmh">KM/T</string>
+    <string id="AvgKmh">SNITT KM/T</string>
+    <string id="Pace">TEMPO /KM</string>
+    <string id="AvgPace">SNITTEMPO</string>
+    <string id="LapPace">RUNDETEMPO</string>
+    <string id="Ascent">STIGNING M</string>
+    <string id="LapAscent">RUNDESTIGNING M</string>
+    <string id="Descent">NEDSTIGNING M</string>
+    <string id="Altitude">HØYDE M</string>
+    <string id="Kcal">KCAL</string>
+    <string id="GpsOk">GPS OK - START</string>
+    <string id="GpsWait">GPS...</string>
+    <string id="AutoPause">AUTOPAUSE</string>
+    <string id="StoppedHdr">STOPPET</string>
+    <string id="MenuStopped">Stoppet</string>
+    <string id="Resume">Fortsett</string>
+    <string id="Save">Lagre</string>
+    <string id="Discard">Forkast</string>
+    <string id="DiscardQ">Forkaste aktiviteten?</string>
+</strings>

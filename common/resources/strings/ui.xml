@@ -1,0 +1,30 @@
+<strings>
+    <string id="Timer">TIMER</string>
+    <string id="Clock">CLOCK</string>
+    <string id="Km">KM</string>
+    <string id="Lap">LAP</string>
+    <string id="LapTime">LAP TIME</string>
+    <string id="LapKm">LAP KM</string>
+    <string id="LapAvgHr">LAP AVG HR</string>
+    <string id="Hr">HR</string>
+    <string id="AvgHr">AVG HR</string>
+    <string id="Kmh">KM/H</string>
+    <string id="AvgKmh">AVG KM/H</string>
+    <string id="Pace">PACE /KM</string>
+    <string id="AvgPace">AVG PACE</string>
+    <string id="LapPace">LAP PACE</string>
+    <string id="Ascent">ASCENT M</string>
+    <string id="LapAscent">LAP ASCENT M</string>
+    <string id="Descent">DESCENT M</string>
+    <string id="Altitude">ALTITUDE M</string>
+    <string id="Kcal">KCAL</string>
+    <string id="GpsOk">GPS OK - START</string>
+    <string id="GpsWait">GPS...</string>
+    <string id="AutoPause">AUTO PAUSE</string>
+    <string id="StoppedHdr">STOPPED</string>
+    <string id="MenuStopped">Stopped</string>
+    <string id="Resume">Resume</string>
+    <string id="Save">Save</string>
+    <string id="Discard">Discard</string>
+    <string id="DiscardQ">Discard activity?</string>
+</strings>
