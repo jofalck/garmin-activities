@@ -9,6 +9,7 @@ right sport type, so Garmin Connect and Intervals.icu show it correctly without 
 | XC Classic / Klassisk | cross_country_skiing / generic | Cross Country Classic Skiing |
 | XC Skate / Skøyting | cross_country_skiing / skate_skiing | Cross Country Skate Skiing |
 | Randonee | alpine_skiing / backcountry | Backcountry Skiing |
+| Roller Ski / Rulleski | inline_skating / generic | Inline Skating (no roller-ski type exists in FIT) |
 
 ## On the watch
 
@@ -21,14 +22,14 @@ right sport type, so Garmin Connect and Intervals.icu show it correctly without 
 ## Install on a Forerunner 245 Music from a Windows PC
 
 1. On the Windows PC, open https://github.com/jofalck/garmin-activities, sign in, open the `dist/` folder.
-   For each of `football.prg`, `xc-classic.prg`, `xc-skate.prg`, `randonee.prg`: click it and use the
+   For each `.prg` file (`football`, `xc-classic`, `xc-skate`, `randonee`, `roller-ski`): click it and use the
    *Download raw file* button (down arrow, top right of the file view).
 2. Connect the watch to the PC with the Garmin charging cable. Wait until the watch shows the
    USB/connected screen.
 3. Open File Explorer, then go to **This PC → Forerunner 245 Music → Internal Storage → GARMIN → APPS**.
    - The Music model connects as a media device (MTP), not as a drive letter. That's normal.
    - If the watch doesn't appear, close Garmin Express if it's running, then unplug and replug the watch.
-4. Copy the four `.prg` files into `APPS`. To update later, copy the new files over the old ones with
+4. Copy the five `.prg` files into `APPS`. To update later, copy the new files over the old ones with
    the same names.
 5. Unplug the watch. It installs the apps when it disconnects.
 6. On the watch, press START to open the activity list. The apps should be at the bottom of the list.
@@ -49,7 +50,8 @@ Each app's settings are in `<app>/source/Config.mc`:
 - the lap summary fields (`LAP_FIELDS`)
 
 Shared code is in `common/`. Text is in `common/resources*/strings/ui.xml`. App names are in
-`<app>/resources*/strings/strings.xml`.
+`<app>/resources*/strings/strings.xml`. Icons are in `<app>/resources/drawables/launcher_icon.svg`
+(40×40, 64-colour palette).
 
 ## Build
 
