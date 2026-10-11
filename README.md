@@ -62,5 +62,8 @@ Requires the Connect IQ SDK (via the SDK Manager), the fr245/fr245m device files
 ./build.sh   # builds all apps into bin/ and copies the 245 Music builds to dist/
 ```
 
+`tools/sim.sh` builds an app, runs it in the simulator, presses buttons and takes screenshots,
+so you can test without clicking through the simulator by hand. Usage is at the top of the script.
+
 The signing key `developer_key` is not in git. Keep a backup of it (for example in a password
 manager), because updates to installed apps must be signed with the same key.
